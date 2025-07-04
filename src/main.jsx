@@ -1,10 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import MeuApp from './Ocean.jsx'
+import JogoDaVelha from './Jogo.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <MeuApp />
+    <JogoDaVelha />
   </StrictMode>,
 )
